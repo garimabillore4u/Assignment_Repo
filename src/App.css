@@ -76,16 +76,32 @@ ul, #myUL {
 }
 
 -------------------------------------
-
-.d-tree-container {
-  list-style: none;
-  padding: 0;
+.levelOneCss{
+  margin-top: 55px;
 }
-
-.d-tree-node {
-  padding: 0.75rem 1.25rem;
+.levelOneToggleActive{
+  display: block;
 }
-
-.d-tree-toggler.active {
-  transform: rotate(45deg);
+.arrowToggleActive{
+    transition: 0.2s;
+    transform: rotate(90deg);
+    margin-left: 1px;
+}
+.levelOneContainer{
+    min-height: 100px;
+    height: auto !important;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    display: none;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px 3px #eee;
+    /* position: relative !important; */
+    /* background-color: #fff; */
+}
+.expandIcon{
+    font-size: 25px;
+    color: #999999;    
+    font-weight: 100 !important;
+    transition: 0.2s;
 }
